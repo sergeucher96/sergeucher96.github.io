@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Crypto Games in Telegram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #6bf2bc;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            margin-top: 1%;
+        }
+        .header img {
+            height: 50px;
+            margin: 10px auto; /* Отступ сверху */
+            display: block;
+        }
+        .game {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .game-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            z-index: -1;
+        }
+        .game-description {
+            display: none;
+            margin-top: 10px;
+        }
+        .button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 15px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .play-button {
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header">
+        </div>
+        <img src="logo.jpg" alt="Logo">
+        
+    </div>
+    <!-- Game 1 -->
+    <div class="game" style="margin-top: 100px;"> <style>
+        .game {
+          background-color: rgb(61, 77, 72);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url(logo.jpg);
+    
+
+        }
+      </style><!-- Отступ от логотипа для первой игры -->
+        <img class="game-image" src="game1.jpg" alt="Game 1">
+        <h2>NEAR WALLET</h2>
+        <button class="button" ontouchstart="toggleDescription('game1')" onclick="toggleDescription('game1')">Подробнее</button>
+        <div class="game-description" id="game1-description">
+            <p>
+                Near Wallet является официальным кошельком от блокчейна NEAR Protocol в телеге, в котором можно бесплатно фармить монеты HOT, а также покупать, отправлять и хранить токены на кошельке абсолютно безопасно </p>
+                <a href="https://t.me/herewalletbot/app?startapp=9221148-village-57749"><button>Фармить</button></a>
+        </div>
+    </div>
+   
+    <!-- Game 2 -->
+    <div class="game">
+        <img class="game-image" src="game2.jpg" alt="Game 2">
+        <h2>Game 2: CryptoFarms</h2>
+        <button class="button" ontouchstart="toggleDescription('game2')" onclick="toggleDescription('game2')">Show Description</button>
+        <div class="game-description" id="game2-description">
+            <p>Description of CryptoFarms: Manage your own virtual farm and earn cryptocurrency by growing crops, raising animals, and selling produce in the virtual market. Expand your farm and become the most successful farmer in the crypto world!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+    <!-- Game 3 -->
+    <div class="game">
+        <img class="game-image" src="game3.jpg" alt="Game 3">
+        <h2>Game 3: CryptoBattles</h2>
+        <button class="button" ontouchstart="toggleDescription('game3')" onclick="toggleDescription('game3')">Show Description</button>
+        <div class="game-description" id="game3-description">
+            <p>Description of CryptoBattles: Engage in epic battles with other players using unique cryptocurrency-powered warriors. Train your warriors, level up, and conquer the crypto battlefield!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+    <!-- Game 4 -->
+    <div class="game">
+        <img class="game-image" src="game4.jpg" alt="Game 4">
+        <h2>Game 4: CryptoQuest</h2>
+        <button class="button" ontouchstart="toggleDescription('game4')" onclick="toggleDescription('game4')">Show Description</button>
+        <div class="game-description" id="game4-description">
+            <p>Description of CryptoQuest: Embark on a thrilling adventure in the world of cryptocurrency. Explore dungeons, defeat monsters, and uncover hidden treasures!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+    <!-- Game 5 -->
+    <div class="game">
+        <img class="game-image" src="game5.jpg" alt="Game 5">
+        <h2>Game 5: CryptoCity</h2>
+        <button class="button" ontouchstart="toggleDescription('game5')" onclick="toggleDescription('game5')">Show Description</button>
+        <div class="game-description" id="game5-description">
+            <p>Description of CryptoCity: Build and manage your own virtual city using cryptocurrency. Construct buildings, attract citizens, and watch your city thrive!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+    <!-- Game 6 -->
+    <div class="game">
+        <img class="game-image" src="game6.jpg" alt="Game 6">
+        <h2>Game 6: CryptoPoker</h2>
+        <button class="button" ontouchstart="toggleDescription('game6')" onclick="toggleDescription('game6')">Show Description</button>
+        <div class="game-description" id="game6-description">
+            <p>Description of CryptoPoker: Play exciting poker games with players from around the world using cryptocurrency. Bluff, raise, and win big in the world of crypto poker!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+    <!-- Game 7 -->
+    <div class="game">
+        <img class="game-image" src="game7.jpg" alt="Game 7">
+        <h2>Game 7: CryptoPets</h2>
+        <button class="button" ontouchstart="toggleDescription('game7')" onclick="toggleDescription('game7')">Show Description</button>
+        <div class="game-description" id="game7-description">
+            <p>Description of CryptoPets: Adopt, raise, and trade unique virtual pets using cryptocurrency. Care for your pets, train them, and compete in pet competitions!</p>
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleDescription(gameId) {
+            var description = document.getElementById(gameId + "-description");
+            var playButton = description.querySelector(".play-button");
+            if (description.style.display === "none" || description.style.display === "") {
+                description.style.display = "block";
+                playButton.style.display = "block";
+            } else {
+                description.style.display = "none";
+                playButton.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

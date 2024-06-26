@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.game-list {
+  margin-top: 8px;
+  padding: 0 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(170px, auto);
+}
+
+.game-item {
+  border-radius: 10px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.bg-logo {
+  position: absolute;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  transform: scale(0.5);
+  width: 100%;
+  height: 100%;
+  transition: .3s ease-out;
+}
+
+.bg-logo.near:hover {
+  transform: scale(0.7);
+}
+
+.game-text {
+  text-align: center;
+  padding-top: 4px;
+}
+
+
+/* LOGOS */
+
+.near {
+  background-image: url('./assets/near-logo.png');
+}
+
+.biba {
+  /* TODO */
+  background-image: url('./assets/biba.png');
+}

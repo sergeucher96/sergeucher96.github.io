@@ -1,0 +1,134 @@
+/* Обнуляем отступы и поля у body */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Разрешаем перенос на новую строку */
+    gap: 10px;
+    /* Отступ между блоками */
+}
+
+.box {
+    width: calc(10% - 12px);
+    /* Вычисляем ширину блока с учетом отступа и рамки */
+    border: 2px solid #000;
+    /* Рамка вокруг блока */
+    box-sizing: border-box;
+    /* Учитываем рамку в общей ширине блока */
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    /* Изображение занимает всю доступную ширину блока */
+    height: auto;
+    /* Автоматически подстраиваем высоту под ширину */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/fon.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+
+
+}
+
+/*display: flex; в body позволяет использовать flexbox для центрирования содержимого по горизонтали и вертикали.
+justify-content: center; и align-items: center; центрируют содержимое по горизонтали и вертикали внутри body.
+flex-direction: column; указывает, что элементы будут располагаться вертикально, сверху вниз.
+background-image: url(fon.png); устанавливает фоновое изображение для body.
+background-size: cover; масштабирует фоновое изображение так, чтобы оно полностью покрывало содержимое body.
+background-attachment: fixed; фиксирует фоновое изображение, чтобы оно не прокручивалось вместе с содержимым страницы.
+color: white; устанавливает белый цвет текста.
+font-family: Arial, sans-serif; задает шрифт для текста.*/
+
+.container {
+    margin: 10px;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.box {
+    box-sizing: border-box;
+    width: 100%;
+    /* ***box-sizing: border-box;исправил*** я установил 99% потому что рамка не влезала, но надо исправить, я знаю что можно задать размер блока включая рамку, нужно исправить */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* Центрируем содержимое по горизонтали */
+    overflow: hidden;
+    /* Скрыть части изображения, выходящие за пределы блока */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* тень вокруг блока */
+    border-radius: 10px;
+    /* скругление углов блока */
+    border: 1px solid transparent;
+    /* прозрачная рамка */
+    outline: 3px solid #f723de;
+    /* неоновая рамка через outline */
+    outline-offset: -3px;
+    /* смещение рамки внутрь блока */
+    border-radius: 5px;
+    /* скругление углов блока */
+    transition: outline-color 0.9s ease-out;
+    /* анимация изменения цвета рамки */
+}
+
+.box:hover {
+    outline-color: #77035e;
+    /* изменяем цвет рамки при наведении */
+
+
+
+
+}
+
+.hamster-kombat {
+    background-image: url('img/hamster.png');
+
+}
+
+.memefi {
+    background-image: url('img/memefi.png');
+
+}
+
+.blum {
+    background-image: url('img/blum.png');
+}
+
+.pocketfi {
+    background-image: url('img/pocketfi.png');
+
+}
+
+.tapswap {
+    background-image: url('img/tapswap.png');
+}
+
+@media (max-width: 1664px) {
+    .box {
+        height: 124px;
+        /* Уменьшение высоты для мобильных устройств */
+        margin: 10px 0;
+        width: 340px;
+
+    }
+}

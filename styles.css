@@ -59,11 +59,11 @@ font-family: Arial, sans-serif; задает шрифт для текста.*/
   background-position: center;
   border-image: linear-gradient(
     to bottom right,
-    #b827fc 0%,
+    #2a00fe 0%,
     #2c90fc 25%,
-    #b8fd33 50%,
+    #56003fac 50%,
     #fec837 75%,
-    #fd1892 100%
+    #ee46a0 100%
   );
   border-image-slice: 1;
 }
@@ -73,7 +73,7 @@ font-family: Arial, sans-serif; задает шрифт для текста.*/
 }
 
 .memefi {
-  background-image: url("img/memefi.png");
+  background-image: url("img/anon.png");
 }
 
 .blum {

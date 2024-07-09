@@ -69,21 +69,38 @@ font-family: Arial, sans-serif; задает шрифт для текста.*/
 }
 
 .hamster-kombat {
-  background-image: url("img/gamee.svg");
+  background-image: url("img/hamster kombat.svg");
 }
 
 .memefi {
-  background-image: url("img/anon.png");
+  background-image: url("img/memefi.svg");
 }
 
 .blum {
-  background-image: url("img/blum.png");
+  background-image: url("img/blum.svg");
 }
 
 .pocketfi {
-  background-image: url("img/pocketfi.png");
+  background-image: url("img/pocketfi.svg");
 }
 
 .tapswap {
-  background-image: url("img/tapswap.png");
+  background-image: url("img/tapswap.svg");
+}
+
+.cubes {
+  background-image: url("img/cubes.svg");
+
+}
+
+.notcoin {
+  background-image: url("img/notcoin.svg");
+}
+
+.gamee {
+  background-image: url("img/gamee.svg");
+}
+
+.anon {
+  background-image: url("img/anon fon 2.svg");
 }

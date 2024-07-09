@@ -104,3 +104,27 @@ font-family: Arial, sans-serif; задает шрифт для текста.*/
 .anon {
   background-image: url("img/anon fon 2.svg");
 }
+
+.catizen {
+  background-image: url("img/catizen.svg");
+}
+
+.clayton {
+  background-image: url("img/clayton.svg");
+}
+
+.fartybot {
+  background-image: url("img/fartybot.svg");
+}
+
+.pixeltap {
+  background-image: url("img/pixeltap.svg");
+}
+
+.punks {
+  background-image: url("img/punks.svg");
+}
+
+.sphunx {
+  background-image: url("img/sphynx.svg");
+}

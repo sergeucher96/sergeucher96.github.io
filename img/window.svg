@@ -1,21 +1,21 @@
-<svg width="420" height="600" viewBox="0 0 420 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="50" y="50" width="320" height="500" fill="url(#pattern0_112_79)"/>
+<svg width="360" height="600" viewBox="0 0 360 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="20" y="50" width="320" height="500" fill="url(#pattern0_112_79)"/>
 <g filter="url(#filter0_f_112_79)">
-<rect x="53" y="53" width="314" height="494" stroke="#FF44F8" stroke-width="6"/>
+<rect x="23" y="53" width="314" height="494" stroke="#FF44F8" stroke-width="6"/>
 </g>
 <g filter="url(#filter1_f_112_79)">
-<rect x="53" y="53" width="314" height="494" stroke="#FF44F8" stroke-width="6"/>
+<rect x="23" y="53" width="314" height="494" stroke="#FF44F8" stroke-width="6"/>
 </g>
 <defs>
 <pattern id="pattern0_112_79" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_112_79" transform="matrix(0.00262605 0 0 0.00168067 -0.269433 0)"/>
 </pattern>
-<filter id="filter0_f_112_79" x="48" y="48" width="324" height="504" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_112_79" x="18" y="48" width="324" height="504" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur_112_79"/>
 </filter>
-<filter id="filter1_f_112_79" x="0" y="0" width="420" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_f_112_79" x="-30" y="0" width="420" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_112_79"/>

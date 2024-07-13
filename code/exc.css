@@ -1,0 +1,68 @@
+.body{
+    margin: 210px;
+}
+.box {
+    width: 170px;
+    max-width: 170px;
+    box-sizing: border-box;
+    height: 170px;
+    display: flex;
+    
+    justify-content: center;
+    border: 2px solid #f536d8;
+    /* Цвет рамки */
+    box-shadow:
+      0 0 5px #f536d8,
+      0 0 10px #f536d8,
+      0 0 10px #f536d8,
+      0 0 10px #70015f,
+      0 0 10px #f536d8;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 0px;
+   margin: 15px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 20px;
+  
+}
+
+.container {
+   
+    overflow: hidden;
+
+    min-height: 680px;
+      display: flex;
+  flex-wrap: wrap;
+  /* Разрешаем перенос на новую строку */
+  gap: 2px;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+
+  
+  
+ 
+}
+.okx{
+    background-image: url("/img/exc/okx.svg");
+    
+    
+}
+.bybit{
+    background-image: url("/img/exc/bybit.svg");
+}
+.kukoin{
+    background-image: url("/img/exc/kukoin.svg");
+}
+.mexc{
+    background-image: url("/img/exc/mexc.svg");
+}
+.binance{
+    background-image: url("/img/exc/binance.svg");
+}
+.bingx{
+    background-image: url("/img/exc/bingx.svg");
+
+}

@@ -66,3 +66,21 @@
     background-image: url("/img/exc/bingx.svg");
 
 }
+.bitget{
+    background-image: url("img/exc/bitget.svg");
+}
+.coinbase{
+    background-image: url("/img/exc/coinbase.svg");
+}
+.cryptocom{
+    background-image: url("/img/exc/cryptocom.svg");
+}
+.gateio{
+    background-image: url("img/exc/gateio.svg");
+}
+.htx{
+    background-image: url("img/exc/htx.svg");
+}
+.kraken{
+    background-image: url("img/exc/kraken.svg");
+}

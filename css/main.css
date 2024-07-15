@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  padding: 10px 0 70px 0;
+  margin: 10px;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  max-width: 340px;
+  height: 124px;
+  justify-content: center;
+  border: 2px solid #f536d8;
+  box-shadow: 0 0 5px #f536d8, 0 0 10px #f536d8, 0 0 10px #f536d8,
+    0 0 10px #70015f, 0 0 10px #f536d8;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.box:hover {
+  box-shadow: 0 10px 10px #f3019253, 0 0 2px #f3019253, 0 0 30px #f3019253,
+    0 0 40px #f3019253, 0 0 5px #f3019253;
+}

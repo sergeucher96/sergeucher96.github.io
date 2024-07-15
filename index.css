@@ -110,6 +110,17 @@
     background-image: url("/img/games/hot.svg");
   }
 
+  .dogshouse{
+background-image: url("img/games/dogs.svg");
+  }
+
+  .tabi{
+background-image: url("img/games/tabi.svg");
+  }
+
+  .timefarm{
+background-image: url("img/games/timefarm.svg");
+  }
 .footer ul {
   display: flex;
   flex-flow: row nowrap;

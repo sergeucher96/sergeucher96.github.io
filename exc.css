@@ -2,8 +2,8 @@
     margin: 210px;
 }
 .box {
-    width: 170px;
-    max-width: 170px;
+    width: 150px;
+    max-width: 150px;
     box-sizing: border-box;
     height: 170px;
     display: flex;

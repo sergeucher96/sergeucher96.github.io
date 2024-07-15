@@ -101,3 +101,7 @@ body {
   justify-content: space-around;
   width: 100%;
 }
+
+a:hover {
+    cursor: pointer;
+}

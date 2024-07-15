@@ -72,7 +72,6 @@
   background-image: url("/img/games/hot.svg");
 }
 
-/* IMAGES EXC PAGE */
 
 .okx {
   background-image: url("/img/exc/okx.svg");
@@ -102,11 +101,11 @@
   background-image: url("/img/exc/cryptocom.svg");
 }
 .gateio {
-  background-image: url("img/exc/gateio.svg");
+  background-image: url("/img/exc/gateio.svg");
 }
 .htx {
-  background-image: url("img/exc/htx.svg");
+  background-image: url("/img/exc/htx.svg");
 }
 .kraken {
-  background-image: url("img/exc/kraken.svg");
+  background-image: url("/img/exc/kraken.svg");
 }
